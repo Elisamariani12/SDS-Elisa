@@ -1,5 +1,6 @@
 from flask import Flask, request, make_response, jsonify
 from DialogControl import DialogControl
+import pandas as pd
 
 app = Flask(__name__)
 
