@@ -4,12 +4,12 @@ import pandas as pd
 
 app = Flask(__name__)
 
-
 @app.route('/webhook', methods=['POST'])
 def webhook():
+    events_data_df=pd.read_csv('database.csv',sep=";")
     req = request.get_json(force=True)
-    dialog_control = DialogControl(req)
-    dialog_control.handleRequest()
+    dialog_control = DialogControl()
+    dialog_control.handleRequest(events_data_df)
     response = dialog_control.getResponse()
     return make_response(jsonify(response))
 
