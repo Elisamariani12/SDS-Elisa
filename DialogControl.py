@@ -25,14 +25,15 @@ class DialogControl:
         self.textResponse = ""
         self.followupIntent = None
 
-    def handleChooseCityAndEvent(self):
-        if self.city in events_data:
-            if self.event in events_data[self.city]:
-                self.textResponse = "Following events are available: "
-                for event in events_data[self.city][self.event]:
-                    self.textResponse += str(event) + " "
-                self.textResponse += "Which show are you interested in?"
-                return
+    def handleChooseCityAndEvent(self,df):
+        if self.event in df[(df.city == self.city)].event:
+            self.textResponse = "Following events are available: "
+            count=0;
+            for index,a in df[(df.city == self.city) &(df.event ==self.event)].iterrows():
+                self.textResponse += ("Show #"+str(count)+": "+a.shows+", "+a.weekday+" "+a.dates+" "+a.times)
+                count=count+1
+            self.textResponse += "Which show are you interested in?"
+            return
         self.textResponse = "Unfortunately there is no {} in {}. Maybe try with different city?".format(self.event.lower(), self.city)
 
     def handleNoAvailableEvents(self):
@@ -40,8 +41,7 @@ class DialogControl:
 
     def handleChooseAvailableEvents(self):
         self.textResponse = "Following dates are available: "
-        for date in events_data[self.city][self.event][self.artist]:
-            self.textResponse += str(date)
+        self.textResponse += df[(df.city == self.city) &(df.event ==self.event)&(df.shows==self.artist)].dates.astype(str)
 
     def getResponse(self):
         response = {
