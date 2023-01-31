@@ -1,0 +1,73 @@
+﻿city;event;shows;weekday;dates;times
+Berlin;concert;Queen;Friday;20/01/2024;18:00:00
+Berlin;concert;Queen;Saturday;21/01/2024;18:00:00
+Berlin;concert;Michael Jackson;Saturday;08/04/2023;20:00:00
+Berlin;concert;Micheal Jackson;Sunday;09/04/2023;19:00:00
+Berlin;concert;Whitney Houston;Thursday;16/02/2023;17:00:00
+Berlin;concert;Whitney Houston;Friday;17/02/2023;19:00:00
+Hamburg;concert;Queen;Friday;20/01/2024;18:00:00
+Hamburg;concert;Queen;Saturday;21/01/2024;18:00:00
+Hamburg;concert;Michael Jackson;Saturday;08/04/2023;20:00:00
+Hamburg;concert;Micheal Jackson;Sunday;09/04/2023;19:00:00
+Hamburg;concert;Whitney Houston;Thursday;16/02/2023;17:00:00
+Hamburg;concert;Whitney Houston;Friday;17/02/2023;19:00:00
+Munich;concert;Queen;Friday;20/01/2024;18:00:00
+Munich;concert;Queen;Saturday;21/01/2024;18:00:00
+Munich;concert;Michael Jackson;Saturday;08/04/2023;20:00:00
+Munich;concert;Micheal Jackson;Sunday;09/04/2023;19:00:00
+Munich;concert;Whitney Houston;Thursday;16/02/2023;17:00:00
+Munich;concert;Whitney Houston;Friday;17/02/2023;19:00:00
+Cologne;concert;Queen;Friday;20/01/2024;18:00:00
+Cologne;concert;Queen;Saturday;21/01/2024;18:00:00
+Cologne;concert;Michael Jackson;Saturday;08/04/2023;20:00:00
+Cologne;concert;Micheal Jackson;Sunday;09/04/2023;19:00:00
+Cologne;concert;Whitney Houston;Thursday;16/02/2023;17:00:00
+Cologne;concert;Whitney Houston;Friday;17/02/2023;19:00:00
+Berlin;musical;Mamma Mia;Monday;27/03/2023;18:00:00
+Berlin;musical;Mamma Mia;Tuesday;26/03/2023;18:00:00
+Berlin;musical;The Lion King;Saturday;08/12/2023;20:00:00
+Berlin;musical;The Lion King;Sunday;09/12/2023;19:00:00
+Berlin;musical;The Phantom of the Opera;Thursday;02/10/2023;17:00:00
+Berlin;musical;The Phantom of the Opera;Friday;03/10/2023;19:00:00
+Hamburg;musical;Mamma Mia;Monday;27/03/2023;18:00:00
+Hamburg;musical;Mamma Mia;Tuesday;26/03/2023;18:00:00
+Hamburg;musical;The Lion King;Saturday;08/12/2023;20:00:00
+Hamburg;musical;The Lion King;Sunday;09/12/2023;19:00:00
+Hamburg;musical;The Phantom of the Opera;Thursday;02/10/2023;17:00:00
+Hamburg;musical;The Phantom of the Opera;Friday;03/10/2023;19:00:00
+Munich;musical;Mamma Mia;Monday;27/03/2023;18:00:00
+Munich;musical;Mamma Mia;Tuesday;26/03/2023;18:00:00
+Munich;musical;The Lion King;Saturday;08/12/2023;20:00:00
+Munich;musical;The Lion King;Sunday;09/12/2023;19:00:00
+Munich;musical;The Phantom of the Opera;Thursday;02/10/2023;17:00:00
+Munich;musical;The Phantom of the Opera;Friday;03/10/2023;19:00:00
+Cologne;musical;Mamma Mia;Monday;27/03/2023;18:00:00
+Cologne;musical;Mamma Mia;Tuesday;26/03/2023;18:00:00
+Cologne;musical;The Lion King;Saturday;08/12/2023;20:00:00
+Cologne;musical;The Lion King;Sunday;09/12/2023;19:00:00
+Cologne;musical;The Phantom of the Opera;Thursday;02/10/2023;17:00:00
+Cologne;musical;The Phantom of the Opera;Friday;03/10/2023;19:00:00
+Berlin;cinema;Pulp Fiction;Friday;05/11/2023;18:00:00
+Berlin;cinema;Pulp Fiction;Friday;05/11/2023;20:00:00
+Berlin;cinema;Harry Potter;Saturday;09/12/2023;20:00:00
+Berlin;cinema;Harry Potter;Saturday;09/12/2023;22:00:00
+Berlin;cinema;The Lord of the Rings;Sunday;22/10/2023;17:00:00
+Berlin;cinema;The Lord of the Rings;Sunday;22/10/2023;19:00:00
+Hamburg;cinema;Pulp Fiction;Friday;05/11/2023;18:00:00
+Hamburg;cinema;Pulp Fiction;Friday;05/11/2023;20:00:00
+Hamburg;cinema;Harry Potter;Saturday;09/12/2023;20:00:00
+Hamburg;cinema;Harry Potter;Saturday;09/12/2023;22:00:00
+Hamburg;cinema;The Lord of the Rings;Sunday;22/10/2023;17:00:00
+Hamburg;cinema;The Lord of the Rings;Sunday;22/10/2023;19:00:00
+Munich;cinema;Pulp Fiction;Friday;05/11/2023;18:00:00
+Munich;cinema;Pulp Fiction;Friday;05/11/2023;20:00:00
+Munich;cinema;Harry Potter;Saturday;09/12/2023;20:00:00
+Munich;cinema;Harry Potter;Saturday;09/12/2023;22:00:00
+Munich;cinema;The Lord of the Rings;Sunday;22/10/2023;17:00:00
+Munich;cinema;The Lord of the Rings;Sunday;22/10/2023;19:00:00
+Cologne;cinema;Pulp Fiction;Friday;05/11/2023;18:00:00
+Cologne;cinema;Pulp Fiction;Friday;05/11/2023;20:00:00
+Cologne;cinema;Harry Potter;Saturday;09/12/2023;20:00:00
+Cologne;cinema;Harry Potter;Saturday;09/12/2023;22:00:00
+Cologne;cinema;The Lord of the Rings;Sunday;22/10/2023;17:00:00
+Cologne;cinema;The Lord of the Rings;Sunday;22/10/2023;19:00:00
